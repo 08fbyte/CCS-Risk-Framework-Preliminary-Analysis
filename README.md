@@ -215,26 +215,8 @@ DNV. (2018). *DNV-RP-F104: Design and Operation of CO₂ Pipelines*. Det Norske 
 
 API. (2020). *API RP 581: Risk-Based Inspection Methodology*. American Petroleum Institute.
 
-👤 About the Author
-Your Name
 
-PhD Candidate | Chemical/Mechanical/Environmental Engineering
 
-Research: Risk Assessment in the Capture and Transport of CO₂ in CCS Systems
-
-📧 your.email@university.edu
-🔗 LinkedIn
-🐙 GitHub
-
-🙏 Acknowledgments
-U.S. PHMSA for public access to pipeline incident data
-
-Satartia, MS incident investigation team
-
-PhD Supervisor and CCS Research Group
-
-📄 License
-This project is licensed under the MIT License.
 
 
 
