@@ -36,21 +36,21 @@ Average damage cost by severity and frequency quartiles
 Figure 2: Equipment-Terrain Interaction Heatmap
 Average damage cost by equipment type and terrain classification
 
-https://visualizations/Fig2_EquipmentTerrain_PhDProposal.png
+![Equipment-Terrain Interaction Heatmap](equipment_terrain_heatmap.png)
 
 Terrain amplification varies by equipment type — valves show 3.2× higher damages in hilly terrain while girth welds show only 1.3× amplification.
 
 Figure 3: Correlation Heatmap
 Feature correlation matrix
 
-https://visualizations/correlation_heatmap.png
+![Correlation Heatmap](correlation_heatmap.png)
 
 *Release volume and damage cost are strongly correlated (r=0.87). Response time shows moderate correlation with damage (r=0.62).*
 
 Figure 4: Geographic Heatmap
 Spatial distribution of incidents with release volume overlay
 
-https://visualizations/geographic_heatmap.png
+![Geographic Heatmap](geographic_heatmap.png)
 
 Incidents cluster in the Gulf Coast (TX, LA, MS) and Rocky Mountain (WY, CO, UT) regions.
 
