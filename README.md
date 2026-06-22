@@ -77,7 +77,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn plotly jupyter
 Steps
 bash
 # Clone the repository
-git clone https://github.com/yourusername/CO2-Pipeline-Risk-Assessment-PhD.git
+git clone https://github.com/08fbyte/CO2-Pipeline-Risk-Assessment-PhD.git
 cd CO2-Pipeline-Risk-Assessment-PhD
 
 # Install dependencies
