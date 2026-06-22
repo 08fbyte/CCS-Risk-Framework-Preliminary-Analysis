@@ -7,7 +7,7 @@ A Data-Driven Preliminary Analysis of 121 PHMSA CO₂ Pipeline Incidents (1994-2
 [![Pandas](https://img.shields.io/badge/Pandas-2.0-red.svg)](https://pandas.pydata.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📊 Project Overview
+##  📊 Project Overview
 
 This repository contains the preliminary data analysis for a PhD dissertation on risk assessment in the capture and transport of CO₂ for Carbon Capture and Storage (CCS) systems. The analysis examines 121 CO₂ pipeline incidents reported to the U.S. Pipeline and Hazardous Materials Safety Administration (PHMSA) from 1994 to 2024, representing 19,717 tons of CO₂ released and $6.96 million in damages.
 
