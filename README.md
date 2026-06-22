@@ -19,8 +19,7 @@ Static Risk Scoring	Constant failure rates assumed	First-decade failure rate 4.7
 Core Question: How can we develop a data-driven risk assessment framework that captures non-linear interactions between failure frequency, consequence severity, and terrain-equipment effects?
 
 ## 🎯 Key Findings
-| Finding |	Result |	Implication |
-|:---|:---|:---|:---|
+Finding Result Implication
 First-decade failure peak	0.445 tons/mile/year (4.7× higher than years 21-30)	Age-dependent fragility curves needed
 Terrain amplification factor	1.6× higher release in hilly/valley terrain	3D terrain integration required
 SCADA detection gap	20.3% detection rate (79.7% false negative)	ML-based anomaly detection required
@@ -30,7 +29,7 @@ Girth weld release volume	2.3× valve releases	Focus on weld integrity
 Figure 1: Risk Matrix Heatmap
 Average damage cost by severity and frequency quartiles
 
-https://visualizations/Fig1_RiskMatrix_PhDProposal.png
+![Risk Matrix Heatmap](risk_Matrix_heatmap.png)
 
 *The weak diagonal pattern (r=0.34) indicates that linear Risk = Probability × Consequence models systematically misestimate high-consequence scenarios.*
 
