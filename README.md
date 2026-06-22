@@ -9,7 +9,7 @@ A Data-Driven Preliminary Analysis of 121 PHMSA CO₂ Pipeline Incidents (1994-2
 
 ##  📊 Project Overview
 
-This repository contains the preliminary data analysis for a PhD dissertation on risk assessment in the capture and transport of CO₂ for Carbon Capture and Storage (CCS) systems. The analysis examines 121 CO₂ pipeline incidents reported to the U.S. Pipeline and Hazardous Materials Safety Administration (PHMSA) from 1994 to 2024, representing 19,717 tons of CO₂ released and $6.96 million in damages.
+This repository contains the preliminary data analysis for a PhD proposal on risk assessment in the capture and transport of CO₂ for Carbon Capture and Storage (CCS) systems. The analysis examines 121 CO₂ pipeline incidents reported to the U.S. Pipeline and Hazardous Materials Safety Administration (PHMSA) from 1994 to 2024, representing 19,717 tons of CO₂ released and $6.96 million in damages.
 
 **The Three Research Gaps Identified:**
 Gap	Current Practice	Finding from Analysis
@@ -19,7 +19,8 @@ Static Risk Scoring	Constant failure rates assumed	First-decade failure rate 4.7
 Core Question: How can we develop a data-driven risk assessment framework that captures non-linear interactions between failure frequency, consequence severity, and terrain-equipment effects?
 
 ## 🎯 Key Findings
-Finding	Result	Implication
+| Finding |	Result |	Implication |
+|:---|:---|:---|:---|
 First-decade failure peak	0.445 tons/mile/year (4.7× higher than years 21-30)	Age-dependent fragility curves needed
 Terrain amplification factor	1.6× higher release in hilly/valley terrain	3D terrain integration required
 SCADA detection gap	20.3% detection rate (79.7% false negative)	ML-based anomaly detection required
