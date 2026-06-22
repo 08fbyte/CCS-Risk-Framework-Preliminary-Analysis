@@ -11,7 +11,7 @@ A Data-Driven Preliminary Analysis of 121 PHMSA CO₂ Pipeline Incidents (1994-2
 
 This repository contains the preliminary data analysis for a PhD dissertation on risk assessment in the capture and transport of CO₂ for Carbon Capture and Storage (CCS) systems. The analysis examines 121 CO₂ pipeline incidents reported to the U.S. Pipeline and Hazardous Materials Safety Administration (PHMSA) from 1994 to 2024, representing 19,717 tons of CO₂ released and $6.96 million in damages.
 
-**The Three Research Gaps Identified**
+**The Three Research Gaps Identified:**
 Gap	Current Practice	Finding from Analysis
 Linear Risk Assumption	Risk = Probability × Consequence	Severity-frequency correlation r = 0.34
 Terrain-Equipment Independence	Terrain as simplified roughness parameter	Valves: 3.2× damage in hilly terrain
@@ -25,7 +25,7 @@ Terrain amplification factor	1.6× higher release in hilly/valley terrain	3D ter
 SCADA detection gap	20.3% detection rate (79.7% false negative)	ML-based anomaly detection required
 Valve failure frequency	35% of all incidents	Prioritize valve inspection
 Girth weld release volume	2.3× valve releases	Focus on weld integrity
-## 📈 Key Visualizations
+##  📈 Key Visualizations
 Figure 1: Risk Matrix Heatmap
 Average damage cost by severity and frequency quartiles
 
