@@ -3,29 +3,29 @@ A data-driven preliminary analysis of 121 CO₂ pipeline incidents (1994-2024) i
 
 A Data-Driven Preliminary Analysis of 121 PHMSA CO₂ Pipeline Incidents (1994-2024)
 
-https://img.shields.io/badge/Python-3.9+-blue.svg
-https://img.shields.io/badge/Based_on-PHMSA%2520Data-red.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
-https://img.shields.io/badge/Status-Preliminary%2520Analysis-orange.svg
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0-red.svg)](https://pandas.pydata.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-📊 Project Overview
+## 📊 Project Overview
+
 This repository contains the preliminary data analysis for a PhD dissertation on risk assessment in the capture and transport of CO₂ for Carbon Capture and Storage (CCS) systems. The analysis examines 121 CO₂ pipeline incidents reported to the U.S. Pipeline and Hazardous Materials Safety Administration (PHMSA) from 1994 to 2024, representing 19,717 tons of CO₂ released and $6.96 million in damages.
 
-The Three Research Gaps Identified
+**The Three Research Gaps Identified**
 Gap	Current Practice	Finding from Analysis
 Linear Risk Assumption	Risk = Probability × Consequence	Severity-frequency correlation r = 0.34
 Terrain-Equipment Independence	Terrain as simplified roughness parameter	Valves: 3.2× damage in hilly terrain
 Static Risk Scoring	Constant failure rates assumed	First-decade failure rate 4.7× higher
 Core Question: How can we develop a data-driven risk assessment framework that captures non-linear interactions between failure frequency, consequence severity, and terrain-equipment effects?
 
-🎯 Key Findings
+## 🎯 Key Findings
 Finding	Result	Implication
 First-decade failure peak	0.445 tons/mile/year (4.7× higher than years 21-30)	Age-dependent fragility curves needed
 Terrain amplification factor	1.6× higher release in hilly/valley terrain	3D terrain integration required
 SCADA detection gap	20.3% detection rate (79.7% false negative)	ML-based anomaly detection required
 Valve failure frequency	35% of all incidents	Prioritize valve inspection
 Girth weld release volume	2.3× valve releases	Focus on weld integrity
-📈 Key Visualizations
+## 📈 Key Visualizations
 Figure 1: Risk Matrix Heatmap
 Average damage cost by severity and frequency quartiles
 
@@ -54,7 +54,7 @@ https://visualizations/geographic_heatmap.png
 
 Incidents cluster in the Gulf Coast (TX, LA, MS) and Rocky Mountain (WY, CO, UT) regions.
 
-🛠️ Methodology
+## 🛠️ Methodology
 Data Sources
 Data Type	Source	Years
 CO₂ pipeline incidents	U.S. PHMSA Pipeline Incident Data	1994-2024
@@ -69,54 +69,8 @@ Step	Method	Purpose
 4	Equipment analysis	Identify component-specific risk profiles
 5	Detection analysis	Evaluate SCADA performance
 6	ML feature selection	Identify key predictors for risk modeling
-📁 Repository Structure
-text
-CO2-Pipeline-Risk-Assessment-PhD/
-│
-├── README.md                           # Project documentation
-│
-├── data/
-│   ├── raw/
-│   │   └── phmsa_co2_incidents.csv    # Raw PHMSA data (121 incidents)
-│   └── processed/
-│       └── co2_pipeline_enhanced_analysis.csv  # Engineered features
-│
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb    # Data cleaning & feature engineering
-│   ├── 02_temporal_analysis.ipynb     # Age-based & time-series analysis
-│   ├── 03_spatial_analysis.ipynb      # Geographic & terrain analysis
-│   ├── 04_equipment_analysis.ipynb    # Component failure patterns
-│   └── 05_detection_analysis.ipynb    # SCADA performance evaluation
-│
-├── src/
-│   ├── data_loader.py                 # PHMSA data loading utilities
-│   ├── visualizations.py              # Heatmap and correlation functions
-│   ├── risk_metrics.py                # Risk matrix calculations
-│   └── ml_features.py                 # Feature engineering for ML
-│
-├── visualizations/
-│   ├── Fig1_RiskMatrix_PhDProposal.png
-│   ├── Fig2_EquipmentTerrain_PhDProposal.png
-│   ├── correlation_heatmap.png
-│   ├── geographic_heatmap.png
-│   ├── seasonal_heatmap.png
-│   ├── feature_clustermap.png
-│   ├── pairplot_matrix.png
-│   ├── release_distribution.png
-│   └── detection_performance.png
-│
-├── results/
-│   ├── correlation_matrix.csv
-│   ├── risk_matrix.csv
-│   └── equipment_terrain_pivot.csv
-│
-├── docs/
-│   └── PhD_Proposal_PreliminaryAnalysis.md
-│
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-🚀 How to Reproduce
+
+## 🚀 How to Reproduce
 Prerequisites
 bash
 pip install numpy pandas matplotlib seaborn scikit-learn plotly jupyter
@@ -163,7 +117,7 @@ Time period: 1994-2024 (30 years)
 Total CO₂ released: 19,717 tons
 Total damages: $6.96 million
 
-KEY FINDINGS
+## KEY FINDINGS
 ------------
 1. Non-linear risk surface:
    - Severity-frequency correlation: r = 0.34
@@ -189,7 +143,7 @@ Equipment: valve_density, weld_age, seam_type
 Detection: scada_present, sensor_density
 
 Suggested Models: Random Forest, XGBoost, Bayesian Network
-📚 Key Results Tables
+## 📚 Key Results Tables
 Risk Matrix (Average Damage in USD)
 Rare	Occasional	Frequent	Very Frequent
 Low	$12,000	$23,000	$34,000	$18,000
@@ -206,7 +160,7 @@ Feature Pair	Correlation
 Release tons vs Damage	0.87
 Response time vs Damage	0.62
 Age vs Release tons	-0.31
-📚 References
+## 📚 References
 U.S. Pipeline and Hazardous Materials Safety Administration (PHMSA). (2024). Pipeline Incident 20 Year Trends. U.S. Department of Transportation.
 
 Liu, X., et al. (2023). Machine Learning for Pipeline Risk Assessment: A Review. Journal of Pipeline Engineering, 22(3), 45-62.
