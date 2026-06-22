@@ -29,7 +29,7 @@ Girth weld release volume	2.3× valve releases	Focus on weld integrity
 Figure 1: Risk Matrix Heatmap
 Average damage cost by severity and frequency quartiles
 
-![Risk Matrix Heatmap](risk_Matrix_heatmap.png)
+![Risk Matrix Heatmap](risk_matrix_heatmap.png)
 
 *The weak diagonal pattern (r=0.34) indicates that linear Risk = Probability × Consequence models systematically misestimate high-consequence scenarios.*
 
