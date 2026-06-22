@@ -104,7 +104,7 @@ analyzer.risk_matrix_heatmap()
 
 # Generate equipment-terrain heatmap (Figure 2 for proposal)
 analyzer.equipment_damage_heatmap()
-📊 Results Summary
+##  📊 Results Summary
 text
 ======================================================================
 CO₂ PIPELINE RISK ASSESSMENT - PRELIMINARY ANALYSIS
